@@ -1,0 +1,116 @@
+.body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.red-light {
+  box-shadow: 0px 0px 75px 10px rgb(255, 0, 0);
+  animation-name: red-luminosity;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.red {
+  background-image: linear-gradient(to top right, rgba(255, 50, 50, 0.5) 20%, rgba(255, 50, 50, 0.3) 60%, rgba(255, 50, 50, 0.2)) !important;
+}
+
+.green-light {
+  box-shadow: 0px 0px 75px 10px rgb(0, 255, 0);
+  animation-name: green-luminosity;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.green {
+  background-image: linear-gradient(to top right, rgba(50, 255, 50, 0.5) 20%, rgba(50, 255, 50, 0.3) 60%, rgba(50, 255, 50, 0.2)) !important;
+}
+
+.blue-light {
+  box-shadow: 0px 0px 75px 10px rgb(0, 0, 255);
+  animation-name: blue-luminosity;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.blue {
+  background-image: linear-gradient(to top right, rgba(50, 50, 255, 0.5) 20%, rgba(50, 50, 255, 0.3) 60%, rgba(50, 50, 255, 0.2)) !important;
+}
+
+.yellow-light {
+  box-shadow: 0px 0px 75px 10px rgb(238, 255, 0);
+  animation-name: red-luminosity;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.yellow{
+  background-image: linear-gradient(to top right, rgba(241, 255, 50, 0.5) 20%, rgba(248, 233, 68, 0.3) 60%, rgba(240, 200, 67, 0.2)) !important;
+}
+
+.led {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabeca {
+  width: 8em;
+  height: 12em;
+  border-radius: 5em 5em 0 0;
+  background-image: linear-gradient(to top right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.base {
+  width: 11em;
+  height: 2.5em;
+  border-radius: 1em;
+  background-image: linear-gradient(to bottom right, rgb(211, 211, 211, 0.5) 20%, rgb(211, 211, 211, 0.3) 60%, rgb(211, 211, 211, 0.2));
+}
+
+.pernas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.perna {
+  height: 12em;
+  width: 0.2em;
+  background-color: gray;
+  margin: 0 2em;
+}
+
+.curta {
+  height: 8em;
+}
+
+.cores {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#space {
+  display: inline-block;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.page-title {
+  font-weight: bold;
+  text-align: center;
+
+}
+
+button{
+
+  width: 60px;
+  height: 40px;
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 20px;
+  background-color: rgb(90, 104, 160);
+  color: white;
+}
